@@ -26,9 +26,9 @@ def createUser(request):
             return Response(serializers.errors,status.HTTP_400_BAD_REQUEST)
 
 
-@api_view(['PUT'])
-def updateUser(request):
-    
+# @api_view(['PUT'])
+# def updateUser(request):
+
 
 @api_view(['PUT'])
 def addFevMovie(request,userId,carId):
